@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
         lui?.setup()
         viewModel = LoginViewModel()
         setupObserver()
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the views.
         
         lui?.loginBtn.addTarget(self, action: #selector(loginAction), for: .touchUpInside)
         lui?.flag.isUserInteractionEnabled = true
